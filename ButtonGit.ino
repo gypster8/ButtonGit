@@ -2,7 +2,7 @@
 const int buttonPin = 2;
 const int buttonPin = 3;  
 const int ledPin = 13;    
-const int ledPin = 14;
+const int ledPin2 = 14;
 
 int buttonState = 0;  
 
@@ -23,5 +23,15 @@ void loop() {
   } else {
     // turn LED off:
     digitalWrite(ledPin, LOW);
+    delay(100)
+    digitalWrite(ledPin2, LOW);
+  
+  
   }
+
+
+
+
+
+
 }
